@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=utf-8 />
+    <Title>Felix World</Title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="master_css.css" />
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  </head>
+
+  <body>
+    <style>
+
+        #myCarousel .item{
+          height: 500px;
+          margin-top: 50px;
+        }
+        #slide1{
+          background: url('./images/anthem.jpg') center no-repeat;
+          background-size: cover;
+        }
+        #slide2{
+          background: url('./images/younglings.jpg') center no-repeat;
+          background-size: cover;
+        }
+        #slide3{
+          background: url('./images/optum.jpg') center no-repeat;
+          background-size: cover;
+        }
+        #slide4{
+          background: url('./images/meeting.jpg') center no-repeat;
+          background-size: cover;
+        }
+        #slide5{
+          background: url('./images/win.jpg') center no-repeat;
+          background-size: cover;
+        }
+        #slide6{
+          background: url('./images/gallerywalk.jpg') center no-repeat;
+          background-size: cover;
+        }
+        #slide7{
+          background: url('./images/envisionteam.jpg') center no-repeat;
+          background-size: cover;
+        }
+      }
+
+      .btn {
+          padding: 14px 24px;
+          border: 0 none;
+          font-weight: 700;
+          letter-spacing: 1px;
+          text-transform: uppercase;
+      }
+
+
+    </style>
+    <!-- NAVBAR
+    ================================================== -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><span class="highlight">Felix </span>Vivongsy</a>
+        </div>
+          <div class="container-fluid navbar-right pull-center">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li ><a href="./files/about/about.html">About</a></li>
+              <li><a href="./files/projects/projects.html">Projects</a></li>
+              <li><a href="./files/contact/contact.html">Contact</a></li>
+              <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Organizations <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="./files/technowolves/technowolves.html">TechnoWolves</a></li>
+                <li><a href="./files/hntb/hntb.html">HNTB</a></li>
+                <li><a href="./files/optum/optum.html">Optum</a></li>
+              </ul>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- END NAVBAR
+      ================================================== -->
+
+      <!-- CAROUSEL
+      ================================================== -->
+      <div class="carousel slide" id="myCarousel" data-ride="carousel">
+
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="4"></li>
+          <li data-target="#myCarousel" data-slide-to="5"></li>
+          <li data-target="#myCarousel" data-slide-to="6"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+					<div class="item active" id="slide1">
+					</div><!-- end item -->
+
+          <div class="item" id="slide2">
+          </div><!-- end item -->
+
+          <div class="item" id="slide3">
+          </div><!-- end item -->
+
+          <div class="item" id="slide4">
+          </div><!-- end item -->
+
+          <div class="item" id="slide5">
+          </div><!-- end item -->
+
+          <div class="item" id="slide6">
+          </div><!-- end item -->
+
+          <div class="item" id="slide7">
+          </div><!-- end item -->
+
+				</div><!-- carousel-inner -->
+
+				<!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+			</div>
+      <!-- END CAROUSEL
+      ================================================== -->
+
+      <!-- Organizations
+      ================================================== -->
+      <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="./images/tw.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Techno Wolves</h2>
+          <p>A high school robotics team that competes in the FIRST Robotics Competition (FRC) provided by the organization “For Inspiration and Recognition of Science and Technology”.</p>
+          <p><a class="btn btn-default" href="./files/technowolves/technowolves.html" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="./images/hntb.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>HNTB</h2>
+          <p>Civil engineering consultant company that provides innovative solutions in transportation, infrastructure, traffic, and roadway design. <br/>
+          </br/></p>
+          <p><a class="btn btn-default" href="./files/hntb/hntb.html" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="./images/optumlogo.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Optum</h2>
+          <p>Developed by the company United Health Group, Optum TDP works to evolve healthcare by updating current systems and processes with recent technologies and innovations.</p>
+          <p><a class="btn btn-default" href="./files/optum/optum.html" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+      <!-- End Organizations
+      ================================================== -->
+
+      <!-- FOOTER -->
+      <div class="footer">
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2017 fvivongs &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </div>
+      <!-- END FOOTER -->
+
+  </body>
+</html>

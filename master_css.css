@@ -1,0 +1,158 @@
+/* NAVBAR CONTENT
+-------------------------------------------------- */
+.navbar{
+  margin-bottom: 70px;
+}
+
+nav .highlight{
+  color: #e8491d;
+  font-weight: bold;
+}
+
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+}
+/* END NAVBAR CONTENT
+-------------------------------------------------- */
+/* INDEX PAGE CONTENT
+-------------------------------------------------- */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+  padding-top: 50px;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+/* END INDEX PAGE CONTENT
+-------------------------------------------------- */
+/* FOOTER CONTENT
+-------------------------------------------------- */
+.footer {
+    position: static;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    /*background-color: red;*/
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+}
+/* END FOOTER CONTENT
+-------------------------------------------------- */
+/* CIRCLE IMAGES
+-------------------------------------------------- */
+.img-circle{
+  border: 2.5px solid;
+}
+/* CIRCLE IMAGES END
+-------------------------------------------------- */
+/* FEATURETTES CONTENT
+-------------------------------------------------- */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+  color: #666666;
+}
+
+.featurette-divider {
+  margin: 30px; /* Space out the Bootstrap <hr> more */
+}
+
+@media (min-width: 768px) {
+    .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+    .featurette-heading {
+    margin-top: 120px;
+  }
+}
+/* END FEATURETTES CONTENT
+-------------------------------------------------- */
+/* About Page CONTENT
+-------------------------------------------------- */
+#about_image{
+  padding-top:125px;
+}
+
+#about_me h2{
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+  color: #666666;;
+}
+
+#about_me{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#gallery{
+  padding-top: 40px;
+}
+/* END About Page CONTENT
+-------------------------------------------------- */
+/* ORGANIZATION CONTENT
+-------------------------------------------------- */
+#organization_photo {
+  width: auto;
+  height: 150px;
+}
+
+#organization_title{
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+#end{
+  padding-top: 65px;
+  font-size: 50px;
+}
+#end2{
+  padding-top: 50px;
+  font-size: 50px;
+}
+#end3{
+  padding-top: 50px;
+  font-size: 50px;
+}
+#img_end{
+  padding-top: 10px;
+}
+/* END ORGANIZATION CONTENT
+-------------------------------------------------- */
+/* PROJECTS CONTENT
+-------------------------------------------------- */
+#projects {
+  padding-top:50px
+}
+
+#projects h4{
+  color: #5f9ed8;
+  font-weight: bold;
+}
+
+#printing{
+  padding-top:110px;
+}
+
+#printing img{
+  border: 1px solid #404040;
+}
+
+#printing_paragraph{
+  padding-top:150px;
+}
+
+#tennessee_video{
+  padding-top: 110px;
+}
+/* END PROJECTS CONTENT
+-------------------------------------------------- */

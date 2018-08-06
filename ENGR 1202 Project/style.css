@@ -1,0 +1,101 @@
+html{
+  position: relative;
+  min-height: 100%;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  /*Could also use this --> font: 15px/1.5 Arial, Helvetica, sans-serif;*/
+  background-color:#f4f4f4;
+  margin: 0 0 100px
+}
+
+/*global*/
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/*Header*/
+header{
+  background: #35424a;
+  color:#ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #3498db 3px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header ul{
+  margin: 0;
+  padding: 0;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float: left;
+}
+
+header #branding h1{
+  margin: 0;
+}
+
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight, header .current a{
+  color: #3498db;
+  font-weight: bold;
+}
+
+header a:hover{
+  color: #cccccc;
+  font-weight: bold;
+}
+
+/*showcase*/
+
+#showcase{
+  min-height: 400px;
+  background: url('images/image4.PNG');
+  object-fit: cover;
+  color: white;
+}
+
+
+#showcase h1{
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#showcase p{
+  font-size: 20px;
+
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  left: 40px;
+  width: 100%;
+  height: 50px;
+
+}
